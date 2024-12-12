@@ -338,6 +338,38 @@
     margin-bottom: -8rem;
   }
 
+  p{
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  .footerindhold {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-right: 0rem;
+  }
+
+  .somelogoer {
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  
+  .somelogoer img {
+    height: 3rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+
+  .facebook {
+    margin-left: 1rem;
+  }
+
 }
 
 /* Media Queries for Tablet */
