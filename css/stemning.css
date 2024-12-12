@@ -246,3 +246,82 @@
       margin-left: 2rem;
       margin-top: 1rem;
     }
+
+
+/* Media for mobiltelefoner */
+@media (max-width: 599px) {
+
+  .logo img {
+    width: 15rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar ul a {
+    color: var(--hvid);
+    font-size: 1rem;
+    font-family: "Lexend";
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 1.5rem;
+  }
+
+  .navbar ul {
+    display: none; /* Skjul menuen som standard */
+    flex-direction: column;
+    position:absolute;
+    top: 4rem;
+    left: 0rem;
+    right: 0rem;
+    padding: 1rem;
+    list-style: none;
+  }
+
+  .burger-label {
+    display: block;
+  }
+
+  .burger-label img {
+    width: 3.5rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  .footerindhold {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-right: 0rem;
+  }
+
+  .somelogoer {
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  
+  .somelogoer img {
+    height: 3rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+
+  .facebook {
+    margin-left: 1rem;
+  }
+
+}

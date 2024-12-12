@@ -69,6 +69,7 @@
         font-weight: 500;
         font-size: 1.5rem;
         color: var(--hvid);
+        line-height: 2.5rem;
       }
     
        * {
