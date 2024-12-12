@@ -193,11 +193,7 @@
         margin-left: 1.9rem;
     }
 
-    .kunstnere4 article {
-        flex: 1; /* Sørger for, at alle kolonner fylder lige meget */
-      }
-
-      #kunstner1, #kunstner2, #kunstner3, #kunstner5, #kunstner6, #kunstner7, #kunstner8, #kunstner9, #kunstner10 {
+      #kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
         height: auto;
         width: 28rem;
       }
@@ -211,10 +207,6 @@
       .kunstner1, .kunstner2, .kunstner3, .kunstner4, .kunstner5, .kunstner6, .kunstner7, .kunstner8, .kunstner9 {
         position: relative;
         max-width:fit-content;
-      }
-
-      .kunstner10 {
-        background-color: transparent; /* Gør den tomme kolonne usynlig (kan tilpasses) */
       }
 
       .kunstner1:hover, .kunstner2:hover, .kunstner3:hover, .kunstner4:hover, .kunstner5:hover, .kunstner6:hover, .kunstner7:hover, .kunstner8:hover, .kunstner9:hover {
