@@ -258,8 +258,12 @@
          margin-top: -1rem;
       }
        
+      .download a {
+        text-decoration: none;
+      }
     
       .footerstreg img {
+        margin-top: 2rem;
         height: 4rem;
         width: 100%;
       }
