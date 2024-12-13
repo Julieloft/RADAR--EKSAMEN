@@ -291,6 +291,13 @@
         margin-top: 1rem;
       }
 
+      .forslag img{
+        position: fixed;
+        bottom: 1rem;
+        right: 0.5rem;
+        width: 13rem;
+      }
+
 /* Media for mobiltelefoner */
 @media (max-width: 599px) {
 
@@ -444,6 +451,12 @@ h6{
 
   .facebook {
     margin-left: 1rem;
+  }
+
+  .forslag {
+    position: fixed;
+    right: 0.5rem;
+    width: 7rem;
   }
 
 }
