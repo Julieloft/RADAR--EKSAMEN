@@ -453,10 +453,151 @@ h6{
     margin-left: 1rem;
   }
 
-  .forslag {
+  .forslag img {
     position: fixed;
     right: 0.5rem;
     width: 7rem;
+  }
+
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .logo img {
+    width: 20rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar ul a {
+    color: var(--hvid);
+    font-size: 1rem;
+    font-family: "Lexend";
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 1.5rem;
+  }
+
+  .navbar ul {
+    display: none; /* Skjul menuen som standard */
+    flex-direction: column;
+    position:absolute;
+    top: 5rem;
+    left: 0rem;
+    right: 0rem;
+    padding: 1rem;
+    list-style: none;
+  }
+
+  .burger-label img {
+    width: 3.75rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    margin-right: 0rem;
+  }
+
+  h3{
+    font-size: 1.25rem;
+  }
+
+  h4{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  h1{
+    font-weight: 900;
+    font-size: 4,5rem;
+    text-align: left;
+  }  
+
+  h2{
+    font-weight: 900;
+    font-size: 3.75rem;
+    text-align: right;
+  }
+
+  .kunstnere, .kunstnere2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .kunstnere3 {
+    margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+  .kunstnere4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+}
+
+#kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
+  height: auto;
+  width: 26rem;
+}
+
+#kunstner4 {
+  height: auto;
+  width: 26rem;
+  margin-left: 3.5rem;
+}
+
+
+  p{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+  }
+  
+  .footerstreg img {
+    margin-top: 2rem;
+    height: 4rem;
+    width: 100%;
+  }
+  
+  .footerindhold {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .footer-section{
+    margin-right: 0rem;
+  }
+  
+  .somelogoer {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: -4rem;
+  }
+  
+  .somelogoer img {
+    height: 3rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .facebook {
+    margin-left: 1rem;
+  }
+
+  .forslag img{
+    position: fixed;
+    right: 0.5rem;
+    width: 10rem;
   }
 
 }
