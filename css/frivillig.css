@@ -1,5 +1,5 @@
 /**
- * file: css/shopgenbrugstøj.css
+ * file: css/frivillig.css
  * purpose: styling
  **/
 
@@ -15,7 +15,7 @@
        }
     
        h1{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 900;
         font-size: 6rem;
         color: var(--hvid);
@@ -23,7 +23,7 @@
       }  
 
       h2{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 900;
         font-size: 6rem;
         color: var(--hvid);
@@ -31,7 +31,7 @@
       }  
 
       h3{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 800;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -39,7 +39,7 @@
       }
 
       h4{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 2.7rem;
@@ -48,7 +48,7 @@
       }
 
       h5{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 2.7rem;
@@ -57,7 +57,7 @@
       }
 
       h6{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -65,7 +65,7 @@
       }
 
        p{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -106,7 +106,7 @@
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 600;
         text-decoration: none;
       }
@@ -190,7 +190,7 @@
       }
 
       label {
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1rem;
         margin-bottom: 0.5rem; /* Giver lidt afstand mellem label og input */
@@ -201,7 +201,7 @@
       input[type=text] {
         width: 40rem;
         height: 2.5rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         color: var(--hvid);
         margin-bottom: 2rem;
@@ -210,10 +210,10 @@
         background-color: rgba(0, 0, 0, 0);
       }
 
-      input[type=text1] {
+      #erfarring, #hvorforradar {
         width: 40rem;
         height: 7rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         color: var(--hvid);
         margin-bottom: 2rem;
@@ -277,7 +277,7 @@
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -317,7 +317,7 @@
   } 
 
   h3{
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 800;
     font-size: 1rem;
   }
@@ -387,7 +387,7 @@
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -422,7 +422,7 @@
   } 
 
   h3{
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 800;
     font-size: 1.25rem;
   }

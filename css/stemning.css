@@ -1,5 +1,5 @@
 /**
- * file: css/sælggenbrugstøj.css
+ * file: css/stemning.css
  * purpose: styling
  **/
 
@@ -15,7 +15,7 @@
    }
     
    h1{
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 900;
     font-size: 5rem;
     color: var(--hvid);
@@ -23,7 +23,7 @@
   }  
 
   h2{
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 900;
     font-size: 2.5rem;
     color: var(--hvid);
@@ -31,7 +31,7 @@
   }  
 
        p{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -71,7 +71,7 @@
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 600;
         text-decoration: none;
       }
@@ -245,14 +245,14 @@
     }
 
     input[type=file] {
-      font-family: "Lexend";
+      font-family: "Lexend", sans-serif;
       font-weight: 500;
       color: var(--hvid);
       margin-top: 1rem;
     }
 
     input[type=submit] {
-      font-family: "Lexend";
+      font-family: "Lexend", sans-serif;
       font-weight: 500;
       color: black;
       margin-top: 1rem;
@@ -300,7 +300,7 @@
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -402,7 +402,7 @@
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;

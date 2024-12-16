@@ -1,5 +1,5 @@
 /**
- * file: css/shopgenbrugstøj.css
+ * file: css/nyhedsbrev.css
  * purpose: styling
  **/
 
@@ -15,7 +15,7 @@
        }
     
        h1{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 900;
         font-size: 4rem;
         color: var(--hvid);
@@ -59,7 +59,7 @@
       }
 
       label {
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1rem;
         margin-bottom: 0.5rem; /* Giver lidt afstand mellem label og input */
@@ -70,7 +70,7 @@
       input[type=text] {
         width: 40rem;
         height: 2.5rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         color: var(--hvid);
         margin-bottom: 2rem;

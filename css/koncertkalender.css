@@ -1,5 +1,5 @@
 /**
- * file: css/genbrugstøj.css
+ * file: css/koncertkalender.css
  * purpose: styling
  **/
 
@@ -15,7 +15,7 @@
     }
 
       h1{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 900;
         font-size: 6rem;
         color: var(--hvid);
@@ -23,7 +23,7 @@
       }  
 
       h2{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 900;
         font-size: 5rem;
         color: var(--hvid);
@@ -31,7 +31,7 @@
       }
 
       h3{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 800;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -39,7 +39,7 @@
       }
 
       h4{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -47,7 +47,7 @@
       }
 
       h5{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 800;
         font-size: 1.2rem;
         color: var(--hvid);
@@ -56,7 +56,7 @@
       }
 
       h6{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 0.8rem;
         color: var(--hvid);
@@ -65,7 +65,7 @@
       }
 
        p{
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
         color: var(--hvid);
@@ -105,7 +105,7 @@
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
-        font-family: "Lexend";
+        font-family: "Lexend", sans-serif;
         font-weight: 600;
         text-decoration: none;
       }
@@ -199,7 +199,7 @@
       }
 
       .overlay {
-        position:bottom;
+        position: relative;
         background: var(--pink);
         color: #f1f1f1;
         width:100%;
@@ -212,7 +212,7 @@
       }
 
       .overlay1 {
-        position:bottom;
+        position: relative;
         background: var(--lyselilla);
         color: #f1f1f1;
         width:100%;
@@ -225,7 +225,7 @@
       }
 
       .overlay2 {
-        position:bottom;
+        position: relative;
         background: var(--lilla);
         color: #f1f1f1;
         width:100%;
@@ -239,7 +239,7 @@
       
       /* When you mouse over the container, fade in the overlay title */
       .kunstner1:hover .overlay, .kunstner2:hover .overlay1, .kunstner3:hover .overlay2, .kunstner4:hover .overlay, .kunstner5:hover .overlay1, .kunstner6:hover .overlay2, .kunstner7:hover .overlay, .kunstner8:hover .overlay, .kunstner9:hover .overlay1 {
-         opacity: 1.1;
+         opacity: 1;
          transform:scale(1.0);
          margin-bottom: 4%;
          margin-top: -1rem;
@@ -298,7 +298,7 @@
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -330,7 +330,7 @@
   }
 
   h3{
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 800;
     font-size: 1rem;
   }
@@ -446,7 +446,7 @@ h6{
   .navbar ul a {
     color: var(--hvid);
     font-size: 1rem;
-    font-family: "Lexend";
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -485,7 +485,7 @@ h6{
 
   h1{
     font-weight: 900;
-    font-size: 4,5rem;
+    font-size: 4.5rem;
     text-align: left;
   }  
 
