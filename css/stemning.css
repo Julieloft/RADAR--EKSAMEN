@@ -237,6 +237,26 @@
         margin-top: 3rem;
         margin-bottom: 2rem;
     }
+
+    form {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    input[type=file] {
+      font-family: "Lexend";
+      font-weight: 500;
+      color: var(--hvid);
+      margin-top: 1rem;
+    }
+
+    input[type=submit] {
+      font-family: "Lexend";
+      font-weight: 500;
+      color: black;
+      margin-top: 1rem;
+    }
     
     .footerstreg img {
       height: 4rem;
@@ -423,6 +443,90 @@
     font-size: 1rem;
     text-align: left;
     line-height: 1.5rem;
+  }
+
+  .billeder1 img, .billeder2 img, .billeder3 img, .billeder4 img {
+    width: 15rem;
+    height: auto;
+}
+
+.billeder1 {
+  justify-content: center
+}
+
+.billeder2 {
+  justify-content: center
+}
+
+.billeder3 {
+  justify-content: center
+}
+
+.billeder4 {
+  justify-content: center
+}
+
+.b2 img {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+  .b4 img {
+    display: none;
+  }
+
+  .b5 img{
+    margin-top: -9.5rem;
+}
+
+  .b6 img{
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .b7 img{
+    margin-top: -10.5rem;
+  }
+
+  .b8 img {
+    display: none;
+  }
+
+  .b9 img{
+    margin-top: 1.2rem;
+  }
+
+  .b10 img{
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .b11 img{
+    margin-top: 0.7rem;
+  }
+
+  .b12 img {
+    display: none;
+  }
+
+  .b13 img{
+    margin-top: -5.5rem;
+  }
+
+  .b14 img{
+    margin-top: 1.3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .b15 img{
+    margin-top: -5.6rem;
+  } 
+
+  .b16 img{
+    display: none;
   }
   
   .footer-section{
