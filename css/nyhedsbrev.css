@@ -1,0 +1,135 @@
+/**
+ * file: css/shopgenbrugstøj.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+:root {
+    /* Farvepalette: */
+         --moerkeblaa: #031633ff; 
+         --hvid: #ffffff;
+         --pink: #D31776;
+         --blaa: #2C57A4;
+         --lyselilla: #a83a8aff;
+         --lilla: #774c97ff;
+       }
+    
+       h1{
+        font-family: "Lexend";
+        font-weight: 900;
+        font-size: 4rem;
+        color: var(--hvid);
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }  
+    
+       * {
+        margin: 0;
+        padding: 0;
+         box-sizing: border-box;
+      } 
+
+      header {
+        background-color: var(--moerkeblaa);
+      }
+
+      .logo img {
+        width: 25rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .headerstreg img {
+        height: 4rem;
+        width: 100%;
+        margin-top: -1rem;
+    }
+
+      body {
+        background-color: var(--moerkeblaa);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      label {
+        font-family: "Lexend";
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 0.5rem; /* Giver lidt afstand mellem label og input */
+        color: var(--hvid);
+        display: block;       /* Sørger for, at label står alene over input */
+      }
+      
+      input[type=text] {
+        width: 40rem;
+        height: 2.5rem;
+        font-family: "Lexend";
+        font-weight: 500;
+        color: var(--hvid);
+        margin-bottom: 2rem;
+        border: 3px solid var(--hvid);
+        border-radius: 1rem;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .container7 {
+        display: flex;
+        justify-content: center; /* Centrerer knappen */
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .container7 button img {
+        display: block;
+        width: 9rem; /* Tilpasser billedets bredde */
+        height: auto;
+      }
+
+/* Media for mobiltelefoner */
+@media (max-width: 599px) {
+
+    .logo img {
+        width: 15rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      form {
+        scale: 65%;
+        margin-top: -2rem;
+      }
+
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+.logo img {
+    width: 20rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+form {
+    scale: 82.5%;
+    margin-top: 0rem;
+}
+
+}
