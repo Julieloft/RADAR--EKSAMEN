@@ -138,7 +138,7 @@ body{
 }
 
 /* Scroll-container styling */
-div.scroll-container {
+section.scroll-container {
   overflow-x: auto; /* Gør containeren scrollbar */
   overflow-y: hidden; /* Skjuler vertikal scroll */
   white-space: nowrap; /* Holder billederne på én linje */
@@ -284,7 +284,7 @@ div.image-container .overlay {
     font-size: 2rem;
   }
 
-  div.scroll-container {
+  section.scroll-container {
     padding-bottom: 50px; /* Giver lidt plads i bunden for overlayet */
   }
 
@@ -398,7 +398,7 @@ div.image-container .overlay {
     font-size: 3rem;
   }
 
-  div.scroll-container {
+  section.scroll-container {
     padding-bottom: 75px; /* Giver lidt plads i bunden for overlayet */
   }
 
