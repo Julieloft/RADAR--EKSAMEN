@@ -189,31 +189,31 @@
     }
 
     /* flexer de billeder der står i disse classes, så der er 3 billeder på hver række*/
-    .kunstnere, .kunstnere2 {
+    .kunstnere1, .kunstnere2, .kunstnere4, .kunstnere5, .kunstnere6, .kunstnere8, .kunstnere10, .kunstnere11 {
         width: 100%;
         display: flex;
         justify-content: space-around;
       }
 
     /* placering af billederne der står "alene" på sin række, så de flugter med billederne ovenfor. */
-    .kunstnere3 {
+    .kunstnere3, .kunstnere7, .kunstnere9 {
         margin-left: 1.9rem;
     }
 
     /* størrelse på billeder */
-    #kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
+    #kunstner1, #kunstner2, #kunstner3, #kunstner4, #kunstner5, #kunstner6, #kunstner7, #kunstner8, #kunstner9, #kunstner10, #kunstner11, #kunstner12, #kunstner13, #kunstner14, #kunstner15, #kunstner16, #kunstner17, #kunstner18, #kunstner19, #kunstner20, #kunstner21, #kunstner22, #kunstner23, #kunstner24, #kunstner25, #kunstner26, #kunstner27 {
         height: auto;
         width: 28rem;
     }
       
 
-    .kunstner1, .kunstner2, .kunstner3, .kunstner4, .kunstner5, .kunstner6, .kunstner7, .kunstner8, .kunstner9 {
+    .kunstner1, .kunstner2, .kunstner3, .kunstner4, .kunstner5, .kunstner6, .kunstner7, .kunstner8, .kunstner9, .kunstner10, .kunstner11, .kunstner12, .kunstner13, .kunstner14, .kunstner15, .kunstner16, .kunstner17, .kunstner18, .kunstner19, .kunstner20, .kunstner21, .kunstner22, .kunstner23, .kunstner24, .kunstner25, .kunstner26, .kunstner27 {
         position: relative;
         max-width:fit-content;
     }
 
      /* Styling af hover-effekt på billederne */
-    .kunstner1:hover, .kunstner2:hover, .kunstner3:hover, .kunstner4:hover, .kunstner5:hover, .kunstner6:hover, .kunstner7:hover, .kunstner8:hover, .kunstner9:hover {
+    .kunstner1:hover, .kunstner2:hover, .kunstner3:hover, .kunstner4:hover, .kunstner5:hover, .kunstner6:hover, .kunstner7:hover, .kunstner8:hover, .kunstner9:hover, .kunstner10:hover, .kunstner11:hover, .kunstner12:hover, .kunstner13:hover, .kunstner14:hover, .kunstner15:hover, .kunstner16:hover, .kunstner17:hover, .kunstner18:hover, .kunstner19:hover, .kunstner20:hover, .kunstner21:hover, .kunstner22:hover, .kunstner23:hover, .kunstner24:hover, .kunstner25:hover, .kunstner26:hover, .kunstner27:hover {
         transform:scale(1.1);
         transition: .5s ease;
     }
@@ -261,7 +261,7 @@
       }
       
       /* Styling af overlay, så det først bliver synligt, når hover-effekten "aktiveres" ved at musen kører over billedet */
-      .kunstner1:hover .overlay, .kunstner2:hover .overlay1, .kunstner3:hover .overlay2, .kunstner4:hover .overlay, .kunstner5:hover .overlay1, .kunstner6:hover .overlay2, .kunstner7:hover .overlay, .kunstner8:hover .overlay, .kunstner9:hover .overlay1 {
+      .kunstner1:hover .overlay, .kunstner2:hover .overlay1, .kunstner3:hover .overlay2, .kunstner4:hover .overlay, .kunstner5:hover .overlay1, .kunstner6:hover .overlay2, .kunstner7:hover .overlay, .kunstner8:hover .overlay, .kunstner9:hover .overlay1, .kunstner10:hover .overlay2, .kunstner11:hover .overlay, .kunstner12:hover .overlay1, .kunstner13:hover .overlay2, .kunstner14:hover .overlay, .kunstner15:hover .overlay1, .kunstner16:hover .overlay2, .kunstner17:hover .overlay, .kunstner18:hover .overlay, .kunstner19:hover .overlay1, .kunstner20:hover .overlay2, .kunstner21:hover .overlay, .kunstner22:hover .overlay, .kunstner23:hover .overlay1, .kunstner24:hover .overlay2, .kunstner25:hover .overlay, .kunstner26:hover .overlay1, .kunstner27:hover .overlay2 {
          opacity: 1;
          transform:scale(1.0);
          margin-bottom: 4%;
@@ -383,21 +383,21 @@
   }
 
   /* flexer billederne så de placere sig under hinanden i en lodret kolonne*/
-  .kunstnere, .kunstnere2 {
+.kunstnere1, .kunstnere2, .kunstnere4, .kunstnere5, .kunstnere6, .kunstnere8, .kunstnere10, .kunstnere11 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-.kunstnere3 {
+.kunstnere3, .kunstnere7, .kunstnere9 {
     margin-left: 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
+#kunstner1, #kunstner2, #kunstner3, #kunstner4, #kunstner5, #kunstner6, #kunstner7, #kunstner8, #kunstner9, #kunstner10, #kunstner11, #kunstner12, #kunstner13, #kunstner14, #kunstner15, #kunstner16, #kunstner17, #kunstner18, #kunstner19, #kunstner20, #kunstner21, #kunstner22, #kunstner23, #kunstner24, #kunstner25, #kunstner26, #kunstner27 {
   height: auto;
   width: 24rem;
 }
@@ -527,20 +527,20 @@ h6{
   }
 
   /* flexer billederne så de wraper under hinanden når formatet bliver mindre */
-  .kunstnere, .kunstnere2 {
+  .kunstnere1, .kunstnere2, .kunstnere4, .kunstnere5, .kunstnere6, .kunstnere8, .kunstnere10, .kunstnere11 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .kunstnere3 {
+  .kunstnere3, .kunstnere7, .kunstnere9 {
     margin-left: 0rem;
     display: flex;
     justify-content: center;
 }
 
-  #kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
+  #kunstner1, #kunstner2, #kunstner3, #kunstner4, #kunstner5, #kunstner6, #kunstner7, #kunstner8, #kunstner9, #kunstner10, #kunstner11, #kunstner12, #kunstner13, #kunstner14, #kunstner15, #kunstner16, #kunstner17, #kunstner18, #kunstner19, #kunstner20, #kunstner21, #kunstner22, #kunstner23, #kunstner24, #kunstner25, #kunstner26, #kunstner27 {
     height: auto;
     width: 26rem;
 }
