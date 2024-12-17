@@ -14,6 +14,7 @@
      --lilla: #774c97ff;
    }
     
+/* Skrifttyper, størrelse, udseende og placering */
    h1{
     font-family: "Lexend", sans-serif;
     font-weight: 900;
@@ -37,12 +38,14 @@
         color: var(--hvid);
       }
     
+      /* Universal reset for margin, padding og box-sizing */
        * {
         margin: 0;
         padding: 0;
          box-sizing: border-box;
       } 
     
+      /* Styling og flex af header */
       header{
         background-color: var(--moerkeblaa);
         display: flex;
@@ -51,6 +54,7 @@
         margin-bottom: 1rem;
       }
     
+      /* Skjuler menubaren */
       .menu-bar {
         display: none;
       }
@@ -61,6 +65,7 @@
         justify-content: space-between;
      }
     
+     /* Styling af logo */
       .logo img {
         width: 25rem;
         margin-top: 0.5rem;
@@ -68,6 +73,7 @@
         margin-bottom: 0.5rem;
       }
     
+      /* Skrifttype, størrelse og udseende af menupunkter */
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
@@ -81,8 +87,9 @@
         text-decoration: underline;
     }
     
+    /* Skjuler menuen som standard */
     .navbar ul {
-        display: none; /* Skjul menuen som standard */
+        display: none;
         flex-direction: column;
         position:absolute;
         left: 70rem;
@@ -91,10 +98,12 @@
         list-style: none;
     }
     
+    /* Vis menuen, når checkboxen er markeret */
     #menu-bar:checked ~ ul {
-        display: flex; /* Vis menuen, når checkboxen er markeret */
+        display: flex;
     }
     
+    /* Styling af burgermenuen */
     .burger-label {
         display: block;
     }
@@ -106,6 +115,7 @@
       margin-bottom: 0.5rem;
     }
     
+     /* baggrundsfarver */
     main {
       background-color: var(--moerkeblaa);
     }
@@ -114,42 +124,50 @@
       background-color: var(--moerkeblaa);
     }
 
+    /* styling af streg mellem header og overskrift*/
     .headerstreg img {
         height: 4rem;
         width: 100%;
         margin-top: -2rem;
     }
 
+    /* placering/tilpasning af overskrift */
     .overskrift {
         margin-top: 2rem;
         margin-bottom: 4rem;
     }
 
+    /* Flex af billeder i første section */
     .billeder1 {
         display: flex;
         justify-content: space-around;
     }
 
+    /* Størrelsen på billeder */
     .billeder1 img {
         width: 22rem;
         height: auto;
     }
 
+    /* Hover-effekt på billeder, når musen kører over dem */
     .b1:hover, .b2:hover, .b3:hover, .b4:hover {
       transform:scale(1.1);
       transition: .5s ease;
     }
 
+    /* Flex af billeder i anden section */
     .billeder2 {
         display: flex;
         justify-content: space-around;
     }
 
+    /* Størrelsen på billeder */
     .billeder2 img {
         width: 22rem;
         height: auto;
     }
 
+    /* top margin, for at placere billedet, så jeg kan lave en "billedvæg", hvor der er samme afstand mellem billederne*/
     .b5 img{
         margin-top: -14.2rem;
     }
@@ -166,21 +184,25 @@
         margin-top: -1.2rem;
     }
 
+    /* Hover-effekt på billeder, når musen kører over dem */
     .b5:hover, .b6:hover, .b7:hover, .b8:hover {
       transform:scale(1.1);
       transition: .5s ease;
     }
 
+    /* Flex af billeder i tredje section */
     .billeder3 {
         display: flex;
         justify-content: space-around;
     }
 
+    /* Størrelsen på billeder */
     .billeder3 img {
         width: 22rem;
         height: auto;
     }
 
+    /* top margin, for at placere billedet, så jeg kan lave en "billedvæg", hvor der er samme afstand mellem billederne*/
     .b9 img{
         margin-top: 0rem;
     }
@@ -197,21 +219,25 @@
         margin-top: 1.6rem;
     }
 
+    /* Hover-effekt på billeder, når musen kører over dem */
     .b9:hover, .b10:hover, .b11:hover, .b12:hover {
       transform:scale(1.1);
       transition: .5s ease;
     }
 
+    /* Flex af billeder i fjerde section */
     .billeder4 {
         display: flex;
         justify-content: space-around;
     }
 
+    /* Størrelsen på billeder */
     .billeder4 img {
         width: 22rem;
         height: auto;
     }
 
+    /* top margin, for at placere billedet, så jeg kan lave en "billedvæg", hvor der er samme afstand mellem billederne*/
     .b13 img{
         margin-top: -12.2rem;
     }
@@ -228,22 +254,26 @@
         margin-top: 1rem;
     }
 
+    /* Hover-effekt på billeder, når musen kører over dem */
     .b13:hover, .b14:hover, .b15:hover, .b16:hover {
       transform:scale(1.1);
       transition: .5s ease;
     }
 
+    /* placering/tilpasning af overskrift */
     .overskrift2 {
         margin-top: 3rem;
         margin-bottom: 2rem;
     }
 
+    /* Placering og flex af ansøgnings-form */
     form {
       display: flex;
       justify-content: center;
       margin-bottom: 2rem;
     }
 
+    /* styling af tekst ved inputfelt */
     input[type=file] {
       font-family: "Lexend", sans-serif;
       font-weight: 500;
@@ -251,6 +281,7 @@
       margin-top: 1rem;
     }
 
+    /* styling af send knap */
     input[type=submit] {
       font-family: "Lexend", sans-serif;
       font-weight: 500;
@@ -258,11 +289,13 @@
       margin-top: 1rem;
     }
     
+    /* styling af streg i footeren */
     .footerstreg img {
       height: 4rem;
       width: 100%;
     }
     
+    /* Flex og placering af indholdet i footer */
     .footerindhold {
       display: flex;
       justify-content: space-evenly;
@@ -274,12 +307,14 @@
       margin-right: 50rem;
     }
     
+    /* Flexer logoerne seperat i footeren, samt placere dem */
     .somelogoer {
       display: flex;
       margin-left: 5rem;
       margin-right: -4rem;
     }
     
+     /* Styling af logoerne i footeren */
     .somelogoer img {
       height: 3rem;
       margin-left: 2rem;
@@ -309,7 +344,7 @@
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none;
     flex-direction: column;
     position:absolute;
     top: 4rem;
@@ -341,12 +376,14 @@
     font-size: 1.9rem;
   }  
 
+ /* flexer billederne så de placere sig under hinanden i en lodret kolonne*/
   .billeder1, .billeder2, .billeder3, .billeder4 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  /* Placere billederne med samme afstand mellem hinanden */
   .b1 img, .b2 img, .b3 img, .b4 img, .b4 img, .b5 img, .b6 img, .b7 img, .b8 img, .b9 img, .b10 img, .b11 img, .b12 img, .b13 img, .b14 img, .b15 img, .b16 img {
     margin-top: 1rem;
 }
@@ -363,6 +400,7 @@
     line-height: 1.5rem;
   }
 
+  /* flexer footeren så indholdet placere sig over hinanden */
   .footerindhold {
     flex-direction: column;
   }
@@ -411,7 +449,7 @@
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none;
     flex-direction: column;
     position:absolute;
     top: 5rem;
@@ -471,6 +509,7 @@
   margin-right: 1.5rem;
 }
 
+  /* Jeg skjuler nogle af billederne, for at jeg kan opnå et pænt resultat i tabletformat */
   .b4 img {
     display: none;
   }
@@ -489,6 +528,7 @@
     margin-top: -10.5rem;
   }
 
+  /* Jeg skjuler nogle af billederne, for at jeg kan opnå et pænt resultat i tabletformat */
   .b8 img {
     display: none;
   }
@@ -507,6 +547,7 @@
     margin-top: 0.7rem;
   }
 
+  /* Jeg skjuler nogle af billederne, for at jeg kan opnå et pænt resultat i tabletformat */
   .b12 img {
     display: none;
   }
@@ -525,6 +566,7 @@
     margin-top: -5.6rem;
   } 
 
+  /* Jeg skjuler nogle af billederne, for at jeg kan opnå et pænt resultat i tabletformat */
   .b16 img{
     display: none;
   }

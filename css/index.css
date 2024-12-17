@@ -14,6 +14,7 @@
     --lilla: #774c97ff;
 }
 
+/* Skrifttyper, størrelse, udseende og placering */
 h3{
   font-family: "Lexend", sans-serif;
   font-weight: 800;
@@ -58,12 +59,14 @@ p{
   color: var(--hvid);
 }
 
+/* Universal reset for margin, padding og box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } 
 
+/* Styling og flex af header */
   header{
     background-color: var(--moerkeblaa);
     display: flex;
@@ -72,6 +75,7 @@ p{
     margin-bottom: 1rem;
   }
 
+/* Skjuler menubaren */
   .menu-bar {
     display: none;
   }
@@ -82,6 +86,7 @@ p{
     justify-content: space-between;
  }
 
+ /* Styling af logo */
   .logo img {
     width: 25rem;
     margin-top: 0.5rem;
@@ -89,6 +94,7 @@ p{
     margin-bottom: 0.5rem;
   }
 
+/* Skrifttype, størrelse og udseende af menupunkter */
   .navbar ul a {
     color: var(--hvid);
     font-size: 1.5rem;
@@ -101,21 +107,24 @@ p{
     text-decoration: underline;
 }
 
+/* Skjuler menuen som standard */
 .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none; 
     flex-direction: column;
     position:absolute;
     left: 70rem;
     right: 1rem;
     padding: 1rem;
     list-style: none;
-    z-index: 1;
+    z-index: 1; 
 }
 
+/* Vis menuen, når checkboxen er markeret */
 #menu-bar:checked ~ ul {
-    display: flex; /* Vis menuen, når checkboxen er markeret */
+    display: flex; 
 }
 
+/* Styling af burgermenuen */
 .burger-label {
     display: block;
 }
@@ -127,6 +136,7 @@ p{
   margin-bottom: 0.5rem;
 }
 
+/* baggrundsfarver */
 main {
   background-color: var(--moerkeblaa);
 }
@@ -135,34 +145,34 @@ body{
   background-color: var(--moerkeblaa);
 }
 
-/* Scroll-container styling */
+/* Tillader horisontal scrolling og skjuler vertikal scrolling. Holder billederne bliver på en linje */
 section.scroll-container {
-  overflow-x: auto; /* Gør containeren scrollbar */
-  overflow-y: hidden; /* Skjuler vertikal scroll */
-  white-space: nowrap; /* Holder billederne på én linje */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap; 
   width: 100%;
-  height: auto; /* Containeren har automatisk højde */
-  padding-bottom: 100px; /* Giver lidt plads i bunden for overlayet */
+  height: auto; 
+  padding-bottom: 100px; 
 }
 
-/* Image-container styling */
+/* Styling/positionering af containeren, der gør at overlayet fungerer */
 div.image-container {
-  position: relative; /* For at kunne placere overlayet relativt */
+  position: relative;
   display: inline-block;
   width: auto;
 }
 
-/* Billederne */
+/* Sørger for at billedet fylder hele containeren og holder sin størrelse */
 div.image-container img {
   display: block;
-  width: 100%; /* Billedets bredde */
+  width: 100%;
   height: auto;
 }
 
-/* Overlay-styling */
+/* Styling og placering af overlay */
 div.image-container .overlay {
-  position: absolute; /* Placer overlayet absolut i forhold til containeren */
-  bottom: -96px; /* Flytter overlayet 30px under billedet */
+  position: absolute;
+  bottom: -96px;
   left: 0;
   width: 100%;
   height: 6rem;
@@ -170,9 +180,10 @@ div.image-container .overlay {
   background: var(--blaa);
   color: white;
   text-align: center;
-  opacity: 1; /* Start med overlay usynligt */
+  opacity: 1; 
 }
 
+/* Placering af link */
 .link {
   text-align: right;
   margin-top: 4rem;
@@ -180,6 +191,7 @@ div.image-container .overlay {
   margin-right: 0.5rem;
 }
 
+/* Styling af link */
 .link a {
   color: var(--hvid);
   font-size: 2rem;
@@ -188,22 +200,26 @@ div.image-container .overlay {
   text-decoration: underline;
 }
 
+ /* placering/tilpasning af tekst */
 .forsidetekst {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
+ /* Styling og placering af nyhedsbrev "billede" */
 .nyhedsbrev img {
   height: 7rem;
   width: 100%;
   margin-bottom: -5.5rem;
 }
 
+ /* placering/tilpasning af overlay */
 .overlay1 {
   text-align: center;
   padding-bottom: 4rem;
 }
 
+/* styling af overlay */
 .overlay1 a {
   color: var(--hvid);
   font-weight: 900;
@@ -212,6 +228,7 @@ div.image-container .overlay {
   text-decoration: none;
 }
 
+/* Flex og placering af indholdet i footer */
 .footerindhold {
   display: flex;
   justify-content: space-evenly;
@@ -223,12 +240,14 @@ div.image-container .overlay {
   margin-right: 50rem;
 }
 
+/* Flexer logoerne seperat i footeren, samt placere dem */
 .somelogoer {
   display: flex;
   margin-left: 5rem;
   margin-right: -4rem;
 }
 
+ /* Styling af logoerne i footeren */
 .somelogoer img {
   height: 3rem;
   margin-left: 2rem;
@@ -283,12 +302,12 @@ div.image-container .overlay {
   }
 
   section.scroll-container {
-    padding-bottom: 50px; /* Giver lidt plads i bunden for overlayet */
+    padding-bottom: 50px; 
   }
 
-  /* Overlay-styling */
+  
   div.image-container .overlay {
-    bottom: -47px; /* Flytter overlayet 30px under billedet */
+    bottom: -47px; 
     left: 0;
     height: 3rem;
   }
@@ -331,6 +350,7 @@ div.image-container .overlay {
     line-height: 1.5rem;
   }
 
+  /* flexer footeren så indholdet placere sig over hinanden */
   .footerindhold {
     flex-direction: column;
   }
@@ -397,12 +417,12 @@ div.image-container .overlay {
   }
 
   section.scroll-container {
-    padding-bottom: 75px; /* Giver lidt plads i bunden for overlayet */
+    padding-bottom: 75px; 
   }
 
-  /* Overlay-styling */
+  
   div.image-container .overlay {
-    bottom: -71.5px; /* Flytter overlayet 30px under billedet */
+    bottom: -71.5px;
     height: 4.5rem;
   }
 

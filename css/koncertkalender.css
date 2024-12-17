@@ -14,6 +14,7 @@
         --lilla: #774c97ff;
     }
 
+    /* Skrifttyper, størrelse, udseende og placering */
       h1{
         font-family: "Lexend", sans-serif;
         font-weight: 900;
@@ -71,12 +72,14 @@
         color: var(--hvid);
       }
     
+      /* Universal reset for margin, padding og box-sizing */
        * {
         margin: 0;
         padding: 0;
          box-sizing: border-box;
       } 
     
+      /* Styling og flex af header */
       header{
         background-color: var(--moerkeblaa);
         display: flex;
@@ -85,6 +88,7 @@
         margin-bottom: 1rem;
       }
     
+      /* Skjuler menubaren */
       .menu-bar {
         display: none;
       }
@@ -95,6 +99,7 @@
         justify-content: space-between;
      }
     
+     /* Styling af logo */
       .logo img {
         width: 25rem;
         margin-top: 0.5rem;
@@ -102,6 +107,7 @@
         margin-bottom: 0.5rem;
       }
     
+      /* Skrifttype, størrelse og udseende af menupunkter */
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
@@ -115,8 +121,9 @@
         text-decoration: underline;
     }
     
+    /* Skjuler menuen som standard */
     .navbar ul {
-        display: none; /* Skjul menuen som standard */
+        display: none;
         flex-direction: column;
         position:absolute;
         left: 70rem;
@@ -125,10 +132,12 @@
         list-style: none;
     }
     
+    /* Vis menuen, når checkboxen er markeret */
     #menu-bar:checked ~ ul {
-        display: flex; /* Vis menuen, når checkboxen er markeret */
+        display: flex;
     }
     
+    /* Styling af burgermenuen */
     .burger-label {
         display: block;
     }
@@ -140,17 +149,20 @@
       margin-bottom: 0.5rem;
     }
 
+    /* styling af streg mellem header og tekst*/
     .headerstreg img {
         height: 4rem;
         width: 100%;
         margin-top: -2rem;
     }
 
+    /* styling af streg mellem måneder*/
     .streg img {
         height: 4rem;
         width: 100%;
     }
     
+     /* baggrundsfarver */
     main {
       background-color: var(--moerkeblaa);
     }
@@ -159,45 +171,54 @@
       background-color: var(--moerkeblaa);
     }
     
+    /* placering/tilpasning af tekst */
     .kalendertekst {
       margin-top: 3rem;
       margin-bottom: 5rem;
     }
 
+    /* placering/tilpasning af overskrift */
     .aarstal {
         margin-right: 0.5rem;
     }
 
+    /* placering/tilpasning af overskrift */
     .maaned {
         margin-bottom: 2rem;
         margin-left: 0.5rem;
     }
 
+    /* flexer de billeder der står i disse classes, så der er 3 billeder på hver række*/
     .kunstnere, .kunstnere2 {
         width: 100%;
         display: flex;
         justify-content: space-around;
       }
 
+    /* placering af billederne der står "alene" på sin række, så de flugter med billederne ovenfor. */
     .kunstnere3 {
         margin-left: 1.9rem;
     }
 
-      #kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
+    /* størrelse på billeder */
+    #kunstner1, #kunstner2, #kunstner3, #kunstner6, #kunstner7, #kunstner8, #kunstner9 {
         height: auto;
         width: 28rem;
-      }
+    }
+      
 
-      .kunstner1, .kunstner2, .kunstner3, .kunstner4, .kunstner5, .kunstner6, .kunstner7, .kunstner8, .kunstner9 {
+    .kunstner1, .kunstner2, .kunstner3, .kunstner4, .kunstner5, .kunstner6, .kunstner7, .kunstner8, .kunstner9 {
         position: relative;
         max-width:fit-content;
-      }
+    }
 
-      .kunstner1:hover, .kunstner2:hover, .kunstner3:hover, .kunstner4:hover, .kunstner5:hover, .kunstner6:hover, .kunstner7:hover, .kunstner8:hover, .kunstner9:hover {
+     /* Styling af hover-effekt på billederne */
+    .kunstner1:hover, .kunstner2:hover, .kunstner3:hover, .kunstner4:hover, .kunstner5:hover, .kunstner6:hover, .kunstner7:hover, .kunstner8:hover, .kunstner9:hover {
         transform:scale(1.1);
         transition: .5s ease;
-      }
+    }
 
+       /* Styling af pink overlay, som først bliver synligt når musen kører over billedet */
       .overlay {
         position: relative;
         background: var(--pink);
@@ -211,6 +232,7 @@
         text-align:left;
       }
 
+      /* Styling af lilla overlay, som først bliver synligt når musen kører over billedet */
       .overlay1 {
         position: relative;
         background: var(--lyselilla);
@@ -224,6 +246,7 @@
         text-align:left;
       }
 
+      /* Styling af mørkelilla overlay, som først bliver synligt når musen kører over billedet */
       .overlay2 {
         position: relative;
         background: var(--lilla);
@@ -237,7 +260,7 @@
         text-align:left;
       }
       
-      /* When you mouse over the container, fade in the overlay title */
+      /* Styling af overlay, så det først bliver synligt, når hover-effekten "aktiveres" ved at musen kører over billedet */
       .kunstner1:hover .overlay, .kunstner2:hover .overlay1, .kunstner3:hover .overlay2, .kunstner4:hover .overlay, .kunstner5:hover .overlay1, .kunstner6:hover .overlay2, .kunstner7:hover .overlay, .kunstner8:hover .overlay, .kunstner9:hover .overlay1 {
          opacity: 1;
          transform:scale(1.0);
@@ -245,16 +268,19 @@
          margin-top: -1rem;
       }
        
+      /* Styling af link, hvor man kan downloade koncertplan */
       .download a {
         text-decoration: none;
       }
     
+      /* styling af streg i footeren */
       .footerstreg img {
         margin-top: 2rem;
         height: 4rem;
         width: 100%;
       }
       
+      /* Flex og placering af indholdet i footer */
       .footerindhold {
         display: flex;
         justify-content: space-evenly;
@@ -266,18 +292,21 @@
         margin-right: 50rem;
       }
       
+      /* Flexer logoerne seperat i footeren, samt placere dem */
       .somelogoer {
         display: flex;
         margin-left: 5rem;
         margin-right: -4rem;
       }
       
+       /* Styling af logoerne i footeren */
       .somelogoer img {
         height: 3rem;
         margin-left: 2rem;
         margin-top: 1rem;
       }
 
+       /* Styling af lille "link" der følger med i højre side, hvor man bliver viderestillet til Radars mail */
       .forslag img{
         position: fixed;
         bottom: 1rem;
@@ -307,7 +336,7 @@
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none;
     flex-direction: column;
     position:absolute;
     top: 4rem;
@@ -353,6 +382,7 @@
     text-align: right;
   }
 
+  /* flexer billederne så de placere sig under hinanden i en lodret kolonne*/
   .kunstnere, .kunstnere2 {
     width: 100%;
     display: flex;
@@ -401,6 +431,7 @@ h6{
     line-height: 1.5rem;
   }
 
+  /* flexer footeren så indholdet placere sig over hinanden */
   .footerindhold {
     flex-direction: column;
   }
@@ -455,7 +486,7 @@ h6{
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none;
     flex-direction: column;
     position:absolute;
     top: 5rem;
@@ -495,6 +526,7 @@ h6{
     text-align: right;
   }
 
+  /* flexer billederne så de wraper under hinanden når formatet bliver mindre */
   .kunstnere, .kunstnere2 {
     width: 100%;
     display: flex;

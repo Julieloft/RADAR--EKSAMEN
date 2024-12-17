@@ -14,6 +14,7 @@
          --lilla: #774c97ff;
        }
     
+       /* Skrifttyper, størrelse, udseende og placering */
        h1{
         font-family: "Lexend", sans-serif;
         font-weight: 900;
@@ -24,16 +25,19 @@
         margin-bottom: 2rem;
       }  
     
+      /* Universal reset for margin, padding og box-sizing */
        * {
         margin: 0;
         padding: 0;
          box-sizing: border-box;
       } 
 
+      /* Styling af header */
       header {
         background-color: var(--moerkeblaa);
       }
 
+      /* Styling af logo */
       .logo img {
         width: 25rem;
         margin-top: 0.5rem;
@@ -41,16 +45,19 @@
         margin-bottom: 0.5rem;
       }
 
+      /* styling af streg mellem header og tekst*/
       .headerstreg img {
         height: 4rem;
         width: 100%;
         margin-top: -1rem;
     }
 
+       /* baggrundsfarver */
       body {
         background-color: var(--moerkeblaa);
       }
 
+      /* Placering og flex af nyhedsbrev-form */
       form {
         display: flex;
         flex-direction: column;
@@ -58,15 +65,17 @@
         align-items: center;
       }
 
+      /* styling af tekst over inputfelter */
       label {
         font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1rem;
-        margin-bottom: 0.5rem; /* Giver lidt afstand mellem label og input */
+        margin-bottom: 0.5rem;
         color: var(--hvid);
-        display: block;       /* Sørger for, at label står alene over input */
+        display: block;
       }
       
+      /* styling af inputfelter */
       input[type=text] {
         width: 40rem;
         height: 2.5rem;
@@ -79,16 +88,18 @@
         background-color: rgba(0, 0, 0, 0);
       }
 
+      /* Placering af ansøgningsknap */
       .container7 {
         display: flex;
-        justify-content: center; /* Centrerer knappen */
+        justify-content: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
       }
 
+      /* Styling af billedet, som fungerer som tilmeldningsknap */
       .container7 button img {
         display: block;
-        width: 9rem; /* Tilpasser billedets bredde */
+        width: 9rem;
         height: auto;
       }
 

@@ -14,6 +14,7 @@
          --lilla: #774c97ff;
        }
     
+       /* Skrifttyper, størrelse, udseende og placering */
        h1{
         font-family: "Lexend", sans-serif;
         font-weight: 900;
@@ -72,12 +73,14 @@
         line-height: 2.5rem;
       }
     
+      /* Universal reset for margin, padding og box-sizing */
        * {
         margin: 0;
         padding: 0;
          box-sizing: border-box;
       } 
     
+      /* Styling og flex af header */
       header{
         background-color: var(--moerkeblaa);
         display: flex;
@@ -86,6 +89,7 @@
         margin-bottom: 1rem;
       }
     
+      /* Skjuler menubaren */
       .menu-bar {
         display: none;
       }
@@ -96,6 +100,7 @@
         justify-content: space-between;
      }
     
+     /* Styling af logo */
       .logo img {
         width: 25rem;
         margin-top: 0.5rem;
@@ -103,6 +108,7 @@
         margin-bottom: 0.5rem;
       }
     
+      /* Skrifttype, størrelse og udseende af menupunkter */
       .navbar ul a {
         color: var(--hvid);
         font-size: 1.5rem;
@@ -116,8 +122,9 @@
         text-decoration: underline;
     }
     
+    /* Skjuler menuen som standard */
     .navbar ul {
-        display: none; /* Skjul menuen som standard */
+        display: none;
         flex-direction: column;
         position:absolute;
         left: 70rem;
@@ -126,10 +133,12 @@
         list-style: none;
     }
     
+    /* Vis menuen, når checkboxen er markeret */
     #menu-bar:checked ~ ul {
-        display: flex; /* Vis menuen, når checkboxen er markeret */
+        display: flex;
     }
     
+    /* Styling af burgermenuen */
     .burger-label {
         display: block;
     }
@@ -141,6 +150,7 @@
       margin-bottom: 0.5rem;
     }
     
+    /* baggrundsfarver */
     main {
       background-color: var(--moerkeblaa);
     }
@@ -149,38 +159,45 @@
       background-color: var(--moerkeblaa);
     }
 
+    /* styling af billeder */
     .frivilligbillede img{
         width: 100%;
       }
 
+    /* placering/tilpasning af overskrift */
     .overskrift {
         margin-left: 0.5rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
+    /* styling af streg mellem overskift og tekst*/
     .headerstreg img {
         height: 4rem;
         width: 100%;
         margin-bottom: 2rem;
     }
 
+    /* placering/tilpasning af tekst */
     .tekst1 {
         margin-right: 1rem;
         margin-bottom: 4rem;
     }
 
+    /* placering/tilpasning af overskrift */
     .overskrift2 {
         margin-right: 0.5rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
+    /* placering/tilpasning af tekst */
     .tekst2 {
         margin-left: 1rem;
         margin-bottom: 4rem;
     }
 
+    /* Placering og flex af ansøgnings-form */
     form {
         margin-bottom: 40px;
         display: flex;
@@ -189,15 +206,17 @@
         align-items: center;
       }
 
+      /* styling af tekst over inputfelter */
       label {
         font-family: "Lexend", sans-serif;
         font-weight: 500;
         font-size: 1rem;
-        margin-bottom: 0.5rem; /* Giver lidt afstand mellem label og input */
+        margin-bottom: 0.5rem;
         color: var(--hvid);
-        display: block;       /* Sørger for, at label står alene over input */
+        display: block;
       }
       
+      /* styling af inputfelter */
       input[type=text] {
         width: 40rem;
         height: 2.5rem;
@@ -210,6 +229,7 @@
         background-color: rgba(0, 0, 0, 0);
       }
 
+      /* styling af specifikke inputfelter, jeg ønskede større end de andre */
       #erfarring, #hvorforradar {
         width: 40rem;
         height: 7rem;
@@ -222,25 +242,29 @@
         background-color: rgba(0, 0, 0, 0);
       }
 
+      /* Placering af ansøgningsknap */
       .container7 {
         display: flex;
-        justify-content: center; /* Centrerer knappen */
+        justify-content: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
       }
 
+      /* Styling af billedet, som fungerer som ansøgningsknap */
       .container7 button img {
         display: block;
-        width: 9rem; /* Tilpasser billedets bredde */
+        width: 9rem;
         height: auto;
       }
     
+    /* styling af streg i footeren */
     .footerstreg img {
       height: 4rem;
       width: 100%;
       margin-top: -2rem;
     }
     
+    /* Flex og placering af indholdet i footer */
     .footerindhold {
       display: flex;
       justify-content: space-evenly;
@@ -252,19 +276,21 @@
       margin-right: 50rem;
     }
     
+    /* Flexer logoerne seperat i footeren, samt placere dem */
     .somelogoer {
       display: flex;
       margin-left: 5rem;
       margin-right: -4rem;
     }
     
+    /* Styling af logoerne i footeren */
     .somelogoer img {
       height: 3rem;
       margin-left: 2rem;
       margin-top: 1rem;
     }
 
-    /* Media for mobiltelefoner */
+/* Media for mobiltelefoner */
 @media (max-width: 599px) {
 
   .logo img {
@@ -286,7 +312,7 @@
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none;
     flex-direction: column;
     position:absolute;
     top: 4rem;
@@ -348,6 +374,7 @@
     line-height: 1.5rem;
   }
 
+  /* flexer footeren så indholdet placere sig over hinanden */
   .footerindhold {
     flex-direction: column;
   }
@@ -396,7 +423,7 @@
   }
 
   .navbar ul {
-    display: none; /* Skjul menuen som standard */
+    display: none; 
     flex-direction: column;
     position:absolute;
     top: 5rem;
