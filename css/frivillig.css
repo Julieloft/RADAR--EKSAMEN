@@ -70,7 +70,6 @@
         font-weight: 500;
         font-size: 1.5rem;
         color: var(--hvid);
-        line-height: 2.5rem;
       }
     
       /* Universal reset for margin, padding og box-sizing */
@@ -280,7 +279,6 @@
     .somelogoer {
       display: flex;
       margin-left: 5rem;
-      margin-right: -4rem;
     }
     
     /* Styling af logoerne i footeren */
@@ -483,12 +481,6 @@
   
   .footer-section{
     margin-right: 8rem;
-  }
-  
-  .somelogoer {
-    display: flex;
-    margin-left: 5rem;
-    margin-right: -4rem;
   }
   
   .somelogoer img {

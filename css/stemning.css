@@ -311,7 +311,6 @@
     .somelogoer {
       display: flex;
       margin-left: 5rem;
-      margin-right: -4rem;
     }
     
      /* Styling af logoerne i footeren */
@@ -573,12 +572,6 @@
   
   .footer-section{
     margin-right: 8rem;
-  }
-  
-  .somelogoer {
-    display: flex;
-    margin-left: 5rem;
-    margin-right: -4rem;
   }
   
   .somelogoer img {
